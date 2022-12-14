@@ -1,0 +1,14 @@
+.image-h5{
+    font-family: Helvetica;
+    font-weight: 600;
+    font-size: 3rem;
+}
+.carousel-caption-personalizado{
+    position: absolute;
+    bottom: 11.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
