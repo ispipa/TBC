@@ -2,6 +2,7 @@ import './App.css';
 import  'bootstrap/dist/css/bootstrap.min.css';
 import Header from '../src/Components/Header/Header';
 import ImagePage from './Components/Img/ImagePage';
+import Bares from './Components/Bares/Bares';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <ImagePage />
       
+      <Bares />
     </>
   );
 }

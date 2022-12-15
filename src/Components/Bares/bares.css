@@ -1,0 +1,17 @@
+.card2{
+    border-top-right-radius: 12px !important;
+    border-top-left-radius: 12px !important;
+    overflow: hidden;
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 5% !important;
+}
+.fondoNegro{
+    background-color: black !important;
+}
+.dejarBonitp{
+    border-top-left-radius: 100px !important;
+    border-top-right-radius: 100px !important;
+    background-color: aqua !important;
+    padding: 3rem !important;
+}
