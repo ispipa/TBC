@@ -1,5 +1,5 @@
 .image-h5{
-    font-family: Helvetica;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 600;
     font-size: 3rem;
 }
@@ -7,8 +7,8 @@
     position: absolute;
     bottom: 11.25rem;
     left: 15%;
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
+    padding-top: 1.25%;
+    padding-bottom: 8.25%;
     color: #fff;
     text-align: center;
 }
