@@ -18,6 +18,9 @@
     <!--Icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!--OWL-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
      <!--MyCss-->
      <link rel="stylesheet" href="css/global.css"/>
      <link rel="stylesheet" href="css/nav.css"/>
@@ -28,11 +31,6 @@
      <link rel="stylesheet" href="css/proyects.css"/>
      <!--Lotties-->
      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-     <!--OWL-->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-     <!--jQuery -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <title>IsmaelCruzCabezas</title>
 </head>
 <body class="dark">
@@ -201,7 +199,7 @@
                     </div>
                     <div class="col-sm-12"  >
                         <!-- Gallery -->
-                        <div class="row text-center owl-carousel ">
+                        <div class="row text-center owl-carousel  owl-theme">
                             <div class=" figu aos-init" data-aos="fade-up" data-aos-duration="2000" >
                                 <a class="tile" alt="Gitgub" data-mdb-toggle="modal" data-mdb-target="#github">
                                     <img src="portfolio/github.jpg"class="rounded mb-1"/>
@@ -238,6 +236,15 @@
                                     </div>
                                 </a>
                             </div>
+                            <div class=" figu aos-init" data-aos="fade-up" data-aos-duration="2000" >
+                                <a class="tile" alt="Gitgub" data-mdb-toggle="modal" data-mdb-target="#github">
+                                    <img src="portfolio/github.jpg"class="rounded mb-1"/>
+                                    <div class="details">
+                                        <span class="title">Repositorios de mis proyectos</span>
+                                        <span class="info"><i class="fs-2  bi bi-github"></i></span>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                         <!-- Gallery -->
                     </div>
@@ -245,21 +252,39 @@
             </div> <!-- End: .row -->
         </div>
     </section>
+    <!--jQuery -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!--OWL-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <!--AOS-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!--OWL-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <!--MyJs-->
     <script src="js/nav.js"></script>
     <script>
         AOS.init();
-        $(document).ready(function(){
-        $(".owl-carousel").owlCarousel();
-        });
+       
+        $('.owl-carousel').owlCarousel({
+            stagePadding: 50,
+            loop:true,
+            responsiveClass:true,
+            nav:false,
+            responsive:{
+                0:{
+                    items:1,
+                },
+                480 :{
+                    items:3,
+                },
+                768 :{
+                    items:3,
+                    loop:false
+                }
+            }
+        })
     </script>
 </body>
 </html>
