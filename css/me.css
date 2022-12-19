@@ -1,3 +1,10 @@
+.me{
+    background-image: url("https://images.xceed.me/static/b2cweb/home/xceed-events-clubs-djs-11.jpg?h=750&fm=auto");
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-position: top center;
+    height: calc(100vh + 36px);
+}
 .me .me-info {
     padding-top: 100px;
 }
@@ -89,7 +96,7 @@
 @media only screen and (max-width: 576px){
     .me-padding {
         flex-direction: column-reverse;
-        padding: 60px 0;
+        height: calc(100vh - 60px + 20px);
     }
 }
 
