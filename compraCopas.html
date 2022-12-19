@@ -73,7 +73,9 @@
     </header>
     <section class="me" id="introduccion">
         <div class="container">
-            <div class="row  me-padding">
+                    <div class="row text-center owl-carousel  ">
+
+
                         <div class="card">
                             <div class="imgBx">
                                 <img src="https://cdn-icons-png.flaticon.com/512/2899/2899783.png">
@@ -128,9 +130,10 @@
                                 <a href="#">Añadir</a>
                             </div>
                         </div>
-                
-            </div>
-        </div>
+
+                    </div>
+                </div>
+          
     </section>
 
     <!-- MDB -->
@@ -144,6 +147,22 @@
     <script src="js/compras.js"></script>
     <script>
         AOS.init();
+        $('.owl-carousel').owlCarousel({
+            stagePadding: 50,
+            responsiveClass:true,
+            nav:false,
+            responsive:{
+                0:{
+                    items:1,
+                },
+                480 :{
+                    items:3,
+                },
+                768 :{
+                    items:3,
+                }
+            }
+        })
     </script>
 </body>
 
