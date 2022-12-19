@@ -199,7 +199,7 @@
                     </div>
                     <div class="col-sm-12"  >
                         <!-- Gallery -->
-                        <div class="row text-center owl-carousel  owl-theme">
+                        <div class="row text-center owl-carousel  ">
                             <div class=" figu aos-init" data-aos="fade-up" data-aos-duration="2000" >
                                 <a class="tile" alt="Gitgub" data-mdb-toggle="modal" data-mdb-target="#github">
                                     <img src="portfolio/github.jpg"class="rounded mb-1"/>
@@ -266,10 +266,8 @@
     <script src="js/nav.js"></script>
     <script>
         AOS.init();
-       
         $('.owl-carousel').owlCarousel({
             stagePadding: 50,
-            loop:true,
             responsiveClass:true,
             nav:false,
             responsive:{
@@ -281,7 +279,6 @@
                 },
                 768 :{
                     items:3,
-                    loop:false
                 }
             }
         })
