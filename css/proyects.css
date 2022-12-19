@@ -1,5 +1,10 @@
+.proyects{
+    background-color: rgb(255, 255, 255);
+    border-radius: 36px 0px 0px;
+}
 .titleMe h3 {
     margin-bottom: 60px;
+    color: rgb(54, 66, 74);
 }
 
 .grid-item {
@@ -47,6 +52,7 @@
     transition-property: top, opacity;
     transition-duration: 0.3s;
     transition-delay: 0s;
+    color: rgb(204 199 199);
 }
 .figu .tile .details .title {
     line-height: 1;
