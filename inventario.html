@@ -29,6 +29,7 @@
      <link rel="stylesheet" href="css/skills.css"/>
      <link rel="stylesheet" href="css/educationeExperience.css"/>
      <link rel="stylesheet" href="css/proyects.css"/>
+     <link rel="stylesheet" href="css/inventario.css"/>
      <!--Lotties-->
      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
      <!--jQuery -->
@@ -36,6 +37,104 @@
   <title>HNT</title>
 </head>
 <body class="dark">
+  <section class="modals">
+    <!--Modal 1-->
+    <div class="modal fade" id="TBC-Entradas"  data-mdb-keyboard="false" tabindex="-1" aria-labelledby="githubLabel" aria-hidden="true" >
+      <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content proyects-inner" style="background: #282828;">
+          <div class="modal-body">
+              <i class="fs-2 bi bi-x-circle" data-mdb-dismiss="modal"></i>
+              <div class="row">
+                  <div class="col-sm-5">
+                          <h2>Bar de copas Madrid TBC</h2>
+                          <p>En TBC vivirás una experiencia que querrás repetir.</p>
+                  </div>
+                  <div class="col-sm-7 text-center mo">
+                      <div class="img-desc-proyects">
+                          <img src="portfolio/QR-ENTRADAS-TBC1.png" alt="img02" class="img-fluid">
+                          <p>Entrada para el 23 de diciembre</p>
+                          <img src="portfolio/QR-ENTRADAS-TBC2.png" alt="img03" class="img-fluid">
+                          <p>Entrada para el 31 de diciembre</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End Modal 1-->
+    <!--Modal 2-->
+    <div class="modal fade" id="SHOKO-Entradas"  data-mdb-keyboard="false" tabindex="-1" aria-labelledby="SHOKO-EntradasLabel" aria-hidden="true" >
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content proyects-inner" style="background: #282828;">
+            <div class="modal-body">
+                <i class="fs-2 bi bi-x-circle" data-mdb-dismiss="modal"></i>
+                <div class="row">
+                    <div class="col-sm-5">
+                            <h2>Shôko Madrid</h2>
+                            <p>Un año más entramos en el Top 100 clubes del mundo. 🔝</p>
+                    </div>
+                    <div class="col-sm-7 text-center mo">
+                        <div class="img-desc-proyects">
+                            <img src="portfolio/QR-ENTRADAS-SHOKO1.png" alt="img02" class="img-fluid">
+                            <p>Entrada para el 25 de diciembre</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End Modal 2-->
+      <!--Modal 3-->
+    <div class="modal fade" id="TBC-Copas"  data-mdb-keyboard="false" tabindex="-1" aria-labelledby="TBC-CopasLabel" aria-hidden="true" >
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content proyects-inner" style="background: #282828;">
+            <div class="modal-body">
+                <i class="fs-2 bi bi-x-circle" data-mdb-dismiss="modal"></i>
+                <div class="row">
+                    <div class="col-sm-5">
+                            <h2>Bar de copas Madrid TBC</h2>
+                            <p>Tus bebidas</p>
+                    </div>
+                    <div class="col-sm-7 text-center mo">
+                        <div class="img-desc-proyects">
+                            <img src="portfolio/QR-COPAS-TBC1.png" alt="img02" class="img-fluid">
+                            <p>Cubatas</p>
+                            <img src="portfolio/QR-COPAS-TBC2.png" alt="img03" class="img-fluid">
+                            <p>Cerveza</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End Modal 3-->
+      <!--Modal 4-->
+      <div class="modal fade" id="panda"  data-mdb-keyboard="false" tabindex="-1" aria-labelledby="pandaLabel" aria-hidden="true" >
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content proyects-inner" style="background: #282828;">
+            <div class="modal-body">
+                <i class="fs-2 bi bi-x-circle" data-mdb-dismiss="modal"></i>
+                <div class="row">
+                    <div class="col-sm-5">
+                            <h2>PANDA CLUB MADRID</h2>
+                            <p>Tus bebidas 🐼❤️</p>
+                    </div>
+                    <div class="col-sm-7 text-center mo">
+                        <div class="img-desc-proyects">
+                            <img src="portfolio/QR-COPAS-PANDA1.png" alt="img02" class="img-fluid">
+                            <p>Chupitos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--End Modal 4-->
+</section>
     <header class="nav-header nav-fixed" data-aos="fade-up" data-aos-duration="1300">
       <div class="overlay"></div>
       <div class="container">
@@ -67,18 +166,18 @@
           </div>
       </div>
     </header>
-    <section class="proyects" id="proyectos" >
+    <section class="proyects-inventario" id="proyectos" >
       <div class="container">
-          <div class="row separator">
+          <div class="row">
               <div class="part col-sm-12">
-                  <div class="titleMe col-sm-12 text-center aos-init" data-aos="zoom-in-down" data-aos-duration="2000" >
+                  <div class="titleMe-iventario col-sm-12 text-center aos-init" data-aos="zoom-in-down" data-aos-duration="2000" >
                       <h3>Entradas</h3>
                   </div>
                   <div class="col-sm-12"  >
                       <!-- Gallery -->
                       <div class="row text-center owl-carousel  ">
                           <div class=" figu aos-init" data-aos="fade-up" data-aos-duration="2000" >
-                              <a class="tile" alt="Gitgub" data-mdb-toggle="modal" data-mdb-target="#github">
+                              <a class="tile" alt="TBC-Entradas" data-mdb-toggle="modal" data-mdb-target="#TBC-Entradas">
                                   <img src="portfolio/TBC1.png"class="rounded mb-1"/>
                                   <div class="details">
                                       <span class="title">TBC</span>
@@ -86,26 +185,10 @@
                               </a>
                           </div>
                           <div class=" figu aos-init" data-aos="fade-up" data-aos-duration="2000" >
-                              <a class="tile" alt="Laravel" data-mdb-toggle="modal" data-mdb-target="#laravel">
-                                  <img src="portfolio/BH1.jpg" class="rounded mb-1"/>
-                                  <div class="details">
-                                      <span class="title">BLACKHAUS</span>
-                                  </div>
-                              </a>
-                          </div>
-                          <div class=" figu aos-init" data-aos="fade-up" data-aos-duration="2000" >
-                              <a class="tile" alt="Wordpress" data-mdb-toggle="modal" data-mdb-target="#wordpress">
+                              <a class="tile" alt="SHOKO-Entradas" data-mdb-toggle="modal" data-mdb-target="#SHOKO-Entradas">
                                   <img src="portfolio/SHOKO1.jpg" class="rounded mb-1"/>
                                   <div class="details">
                                       <span class="title">Shôko Madrid</span>
-                                  </div>
-                              </a>
-                          </div>
-                          <div class=" figu aos-init" data-aos="fade-up" data-aos-duration="2000" >
-                              <a class="tile" alt="Gitgub" data-mdb-toggle="modal" data-mdb-target="#panda">
-                                  <img src="portfolio/PANDA1.jpg"class="rounded mb-1"/>
-                                  <div class="details">
-                                      <span class="title">PANDA CLUB MADRID</span>
                                   </div>
                               </a>
                           </div>
@@ -114,39 +197,19 @@
                   </div>
               </div> <!-- End: .part -->
           </div> <!-- End: .row -->
-      </div>
-  </section>
-  <section class="proyects" id="proyectos" >
-    <div class="container">
-        <div class="row separator">
+          <div class="row">
             <div class="part col-sm-12">
-                <div class="titleMe col-sm-12 text-center aos-init" data-aos="zoom-in-down" data-aos-duration="2000" >
+                <div class="titleMe-iventario col-sm-12 text-center aos-init" data-aos="zoom-in-down" data-aos-duration="2000" >
                     <h3>Copas</h3>
                 </div>
                 <div class="col-sm-12"  >
                     <!-- Gallery -->
                     <div class="row text-center owl-carousel  ">
                         <div class=" figu aos-init" data-aos="fade-up" data-aos-duration="2000" >
-                            <a class="tile" alt="Gitgub" data-mdb-toggle="modal" data-mdb-target="#github">
+                            <a class="tile" alt="TBC-Copas" data-mdb-toggle="modal" data-mdb-target="#TBC-Copas">
                                 <img src="portfolio/TBC1.png"class="rounded mb-1"/>
                                 <div class="details">
                                     <span class="title">TBC</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class=" figu aos-init" data-aos="fade-up" data-aos-duration="2000" >
-                            <a class="tile" alt="Laravel" data-mdb-toggle="modal" data-mdb-target="#laravel">
-                                <img src="portfolio/BH1.jpg" class="rounded mb-1"/>
-                                <div class="details">
-                                    <span class="title">BLACKHAUS</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class=" figu aos-init" data-aos="fade-up" data-aos-duration="2000" >
-                            <a class="tile" alt="Wordpress" data-mdb-toggle="modal" data-mdb-target="#wordpress">
-                                <img src="portfolio/SHOKO1.jpg" class="rounded mb-1"/>
-                                <div class="details">
-                                    <span class="title">Shôko Madrid</span>
                                 </div>
                             </a>
                         </div>
@@ -163,8 +226,8 @@
                 </div>
             </div> <!-- End: .part -->
         </div> <!-- End: .row -->
-    </div>
-</section>
+      </div>
+  </section>
    <!--jQuery -->
    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
    <!--OWL-->
